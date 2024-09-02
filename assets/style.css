@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+header {
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 80px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding: 0 100px;
+    z-index: 10;
+    font-family: "Ubuntu", sans-serif;
+}
+.port{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+.span-style{
+    color:black;
+}
+header h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    font-style: normal;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    background-image: url(./images/top-bg.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(28, 37, 42);
+    height: fit-content;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 5;
+    position: relative;
+}
+
+.home-name {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: xx-large;
+    justify-content: center;
+}
+.buttons-home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.btn-home{
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    color: white;
+    flex: 1 1 content;
+    background-color: crimson;
+    border: 1px solid crimson;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.avatar {
+    display: inline-flex;
+}
+
+.about {
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+.para-div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+    margin: 0 25px;
+}
+
+/* div.img-div {
+    
+} */
+
+.content-head {
+    padding: 0px 0px 30px 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.content-head * {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    margin: 0px auto;
+    flex:0 1 auto;
+}
+
+#my-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.258);
+}
+.image-div{
+    width: 45%;
+    flex:0 1 450px;
+}
+.para {
+    width: 55%;
+}
+
+.para h3 {
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+.top-heading{
+    font-size: 40px;
+    font-weight: 500;
+}
+.para-ex {
+    font-size: medium;
+    font-weight: 400;
+    font-style: normal;
+}
+.skills{
+    color: white;
+}
+.line {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 6px;
+    color: crimson;
+    font-weight: 600;
+    font-size: large;
+}
+.line::before,
+.line::after{
+    content: "";
+    height: 4px;
+    width: 30px;
+}
+.black-line::before,
+.black-line::after{
+    
+    background-color: rgb(0, 0, 0);
+    
+}
+.white-line::before,.white-line::after{
+    background-color: white;
+}
+.skills{
+    height: fit-content;
+    background-color: #1b272a;
+    padding: 100px 0;
+}
+.logo-img{
+    width: 100px;
+    height: 100px;
+}
+.logo-div{
+    display: flex;
+    gap: 20px;
+}
+.logo-div img{
+    width: 100%;
+}
+.projects{
+    height: fit-content;
+    padding: 100px 0;
+}
+.project-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.project-div{
+    width: 400px;
+    height: fit-content;
+    padding: 10px 20px;
+    border: 1px solid red;
+    text-align: center;
+}
+.project-img,.project-img img{
+    width: 100%;
+}
+.contact{
+    background-color: #1b272a;
+    padding: 100px 0;
+    color: white;
+}
+.address-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+.address-content{
+    display: flex;
+    flex-direction: column;
+}
+.address-title{
+    font-weight: bold;
+}
+.address-value{
+    font-weight: 450;
+}
+.icon{
+    font-size: 35px;
+    padding-top: 10px;
+    color: crimson;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:20px;
+    padding: 0px;
+}
+.form-label{
+    font-weight: 600;
+}
+.name-email{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+input{
+    width: 100%;
+    height: 45px;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+textarea{
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.na-em{
+    width: 50%;
+}
+.input-div{
+    width: 100%;
+}
+.snd-btn{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 6px;
+    color: white;
+    background-color: crimson;
+    border: 1px solid crimson;
+    cursor: pointer;
+    transition: all 1s;
+}
+.snd-btn:hover,.btn-home:hover{
+    border: 1px solid crimson;
+    background-color:black;
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+.go-to-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 2;
+}
+.go-to-btn a{
+    text-decoration: none;
+    font-size: 40px;
+    background-color: crimson;
+    color: white;
+}
+.ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.flex-item{
+    margin: 0px 25px;
+    flex: 1 1 350px;
+}
+/* .img-div{
+width: 30%;
+}
+
+#my-photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.231);
+}
+.img-para{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.para{
+    padding: 50px;
+    width: 50%;
+}
+figure{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
+.who{
+    position: relative;
+    text-align: center;
+} */
