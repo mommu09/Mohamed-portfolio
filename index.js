@@ -59,7 +59,7 @@ g=f^g;
 f=f^g;
 console.log(f,g);*/
 
-/*let name = "Mohamed";
+let name = "Mohamed";
 let engMark = 77;
 let mathsMark = 85;
 if (mathsMark > engMark) {
@@ -70,7 +70,7 @@ else if(mathsMark==engMark){
 }
 else {
     console.log("English mark is higher");
-}*/
+}
 console.log("-----Number----")
 let number = 8;
 if (number > 0) {
