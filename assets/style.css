@@ -337,12 +337,56 @@ input:focus,textarea:focus{
     padding: 10px;
     border-radius: 10px;
 }
-.ul{
-    display: flex;
-}
-li{
-    list-style: none;
-}
+.social-icons .social-icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.295);
+    transition: all 0.3s ease-out;
+    text-decoration: none; /* added to remove underline from link */
+    color: #333; /* added to set text color */
+  }
+  .social-icons .social-icon:hover{
+    width: 200px;
+  }
+  .social-icons .social-icon .icon{
+    display: inline-block;
+    height: 50px; 
+    width: 50px;
+    padding: 0;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+  }
+  .social-icons .social-icon:hover .icon{
+    background-color: #0072b1; 
+  }
+  .social-icons .social-icon .icon i{
+    font-size: 25px;
+    color:crimson;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+  }
+  .social-icons .social-icon:hover .icon i{
+    color: #fff;
+  }
+  .social-icons .social-icon span{
+    font-size: 20px;
+    
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .social-icons .social-icon span{
+    color: #333;
+  }
 .flex-item{
     margin: 0px 25px;
     flex: 1 1 350px;
