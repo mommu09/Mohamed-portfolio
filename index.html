@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h2 class="port">Portfo<span class="span-style">lio</span></h2>
+        <h2 class="logo">
+            <a href="#home">
+                <span class="portfo">Portfo</span><span class="lio">lio</span>
+            </a>
+        </h2>
         <nav>
             <ul>
                 <li><a href="#home" class="nav-links">Home</a></li>
@@ -26,7 +31,6 @@
         <div class="menu-btn">
             <i class="fa-solid fa-bars icon"></i>
         </div>
-        
     </header>
     <main>
         <section id="home">
@@ -35,32 +39,55 @@
                     Hello 👋 I'm
                 </h2>
                 <h1 class="my-name">Mohamed J</h1>
+                <div class="typing">
+                    <span class="i-am">I am <span class="animated-text">Frontend Developer</span></span>
+                    
+                </div>
                 <div class="buttons-home">
                     <a href="#contact" class="btn-home">I need a website <i class="fa-solid fa-chevron-right"></i></a>
-                    <a href="https://in.linkedin.com/in/mohamedj0910" class="btn-home">If you are looking to hire <i
-                            class="fa-solid fa-chevron-right"></i></a>
+                    <a href="https://in.linkedin.com/in/mohamedj0910" target="_blank" class="btn-home">If you are
+                        looking to hire <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="avatar">
-                <img src="./assets/images/intro.gif" alt="Avatar">
+                <img src="./assets/images/intro.gif" alt="Avatar" height="600" width="auto">
             </div>
 
         </section>
-        <div class="go-to-btn">
+        <div class="go-to-btn" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
             <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
         </div>
         <section class="about section-style" id="about">
-            <div class="about-me content-head">
+            <div class="about-me content-head" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <h2 class="top-heading">About Me</h2>
-                <p class="line black-line">Who am I</p>
+                <p class="line black-line">who am I</p>
             </div>
             <div class="para-div">
-                <div class="image-div">
-                    <figure class="image">
-                        <img src="./assets/images/photo.png" id="my-photo" alt="Image">
+                <div class="image-div" data-aos="zoom-out-right">
+                    <img src="./assets/images/photo.png" id="my-photo" alt="Image">
                     </figure>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/mommu09" target="_blank">
+                            <div class="icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <span>Github</span>
+                        </a>
+                        <a class="social-icon" href="https://in.linkedin.com/in/mohamedj0910" target="_blank">
+                            <div class="icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a class="social-icon" href="https://codepen.io/Mohamed-J" target="_blank">
+                            <div class="icon">
+                                <i class="fa-brands fa-codepen"></i>
+                            </div>
+                            <span>Code pen</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="para flex-item">
+                <div class="para flex-item" data-aos="zoom-out-left">
                     <h3>I'm a Mohamed and I'm a front-end Developer</h3>
                     <p class="para-ex">I am a dedicated front-end developer currently enhancing my skills in HTML, CSS,
                         and JavaScript through the Freshworks Software Academy. I am passionate about translating design
@@ -72,17 +99,21 @@
         </section>
 
         <section class="skills" id="skills">
-            <div class="content-head">
+            <div class="content-head" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <h2 class="top-heading">My skills</h2>
-                <p class="line white-line">What I Know</p>
+                <p class="line white-line">what I Know</p>
             </div>
             <div class="para-div">
-                <div class="para flex-item">
+                <div class="para flex-item" data-aos="zoom-out-right">
                     <div>
-                        <p>I am a Frontend Developer with a passion for learning and a strong foundation in HTML, CSS, and JavaScript. I am highly motivated, result-oriented, and a fast learner, always striving to improve my skills. My experience includes using Photoshop for graphic design, Bootstrap for responsive layouts, and basic Git for version control. I am dedicated to delivering high-quality work and staying updated with current technologies.</p>
+                        <p>I am a Frontend Developer with a passion for learning and a strong foundation in HTML, CSS,
+                            and JavaScript. I am highly motivated, result-oriented, and a fast learner, always striving
+                            to improve my skills. My experience includes using Photoshop for graphic design, Bootstrap
+                            for responsive layouts, and basic Git for version control. I am dedicated to delivering
+                            high-quality work and staying updated with current technologies.</p>
                     </div>
                 </div>
-                <div class="logo-div flex-item">
+                <div class="logo-div flex-item" data-aos="zoom-out-left">
                     <div class="logo-img"><img src="./assets/images/skills-icons/html5.png" alt="html"></div>
                     <div class="logo-img"><img src="./assets/images/skills-icons/css3.png" alt="css"></div>
                     <div class="logo-img"><img src="./assets/images/skills-icons/javascript.png" alt="javascript"></div>
@@ -93,32 +124,41 @@
             </div>
         </section>
         <section class="projects" id="projects">
-            <div class="content-head">
+            <div class="content-head" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <h2 class="top-heading">My projects</h2>
                 <p class="line black-line">check my work</p>
             </div>
-            <div class="project">
-                <div class="project-grid">
-                    <div class="project-div">
-                        <div class="project-img"><img src="https://dummyimage.com/400x400/000/fff"
-                                alt="Project image 1"></div>
-                        <div class="project-desc">
-                            <p>Project 1</p>
-                        </div>
+            <div class="project-div">
+                <div class="project" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+                    <div class="project-img">
+                        <img src="./assets/images/tesla-project.png" alt="Nikolas Tesla Tribute Page">
                     </div>
-                    <div class="project-div">
-                        <div class="project-img"><img src="https://dummyimage.com/400x400/000/fff"
-                                alt="Project image 2"></div>
-                        <div class="project-desc">
-                            <p>Project 2</p>
-                        </div>
+                    <div>
+                        <a href="https://mommu09.github.io/nikolatesla/" target="_blank">
+                            <span class="project-name">Nikola Tesla Tribute Page</span>
+                            <span class="lang-used">HTML and CSS</span>
+                        </a>
                     </div>
-                    <div class="project-div">
-                        <div class="project-img"><img src="https://dummyimage.com/400x400/000/fff"
-                                alt="Project image 3"></div>
-                        <div class="project-desc">
-                            <p>Project 3</p>
-                        </div>
+                </div>
+                <div class="project" data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+                    <div class="project-img">
+                        <img src="./assets/images/responsive-grid.png" alt="Responsive Video Grid">
+                    </div>
+                    <div>
+                        <a href="https://codepen.io/Mohamed-Jalal-the-selector/full/bGPLLEr" target="_blank">
+                            <span class="project-name">Responsive Video Grid</span>
+                            <span class="lang-used">HTML and CSS</span></a>
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
+                    <div class="project-img">
+                        <img src="./assets/images/ott.png" alt="Simple OTT Website">
+                    </div>
+                    <div>
+                        <a href="https://codepen.io/Mohamed-Jalal-the-selector/full/jOjgbmG" target="_blank">
+                            <span class="project-name">Simple OTT Website Clone</span>
+                            <span class="lang-used">HTML and CSS</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -126,12 +166,12 @@
             </div>
         </section>
         <section class="contact" id="contact">
-            <div class="contact-head content-head">
+            <div class="contact-head content-head" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <h2 class="top-heading">Contact me</h2>
                 <p class="line white-line">get in touch</p>
             </div>
             <div class="para-div">
-                <div class="contact-details flex-item">
+                <div class="contact-details flex-item" data-aos="zoom-out-right">
                     <h3>Reach Out to me!</h3>
                     <p>Discuss a Project or just want to say Hi? My inbox is open for all.</p>
                     <div class="address-container">
@@ -178,10 +218,16 @@
                                 </div>
                                 <span>LinkedIn</span>
                             </a>
+                            <a class="social-icon" href="https://codepen.io/Mohamed-J" target="_blank">
+                                <div class="icon">
+                                    <i class="fa-brands fa-codepen"></i>
+                                </div>
+                                <span>Code pen</span>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="form-div flex-item">
+                <div class="form-div flex-item" data-aos="zoom-out-left">
                     <form class="form" action="mailto:mohamedj0910@gmail.com">
                         <div class="form-label">
                             <p>Message me</p>
@@ -207,8 +253,13 @@
     </main>
     <footer class="footer">
         <span class="footer-text">Created By <a href="https://in.linkedin.com/in/mohamedj0910"
-                class="likedin">Mohamed</a> &copy; | 2024 All rights reserved</span>
+                class="linkedin">Mohamed</a> &copy; | 2024 All rights reserved</span>
     </footer>
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
