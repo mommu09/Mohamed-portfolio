@@ -209,6 +209,7 @@ nav ul {
 #contact {
     margin: 0px auto;
     padding: 100px 70px;
+    height: fit-content;
 }
 
 .para-div {
@@ -341,8 +342,7 @@ nav ul {
 /*     border-radius: 15px; */
   border:2px solid #4a4a4a;
     background-color: white;
-    flex: 0 0 300px;
-    width: 300px;
+    flex: 0 1 300px;
     text-align: center;
     cursor: pointer;
     font-family: 'Poppins';
@@ -364,7 +364,6 @@ nav ul {
     display: inline-block;
     white-space: nowrap;
     font-weight: 500;
-    
     border:2px solid black;
   box-shadow:3px 3px 0 #4a4a4a;
   color:black;
