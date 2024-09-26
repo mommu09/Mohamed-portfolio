@@ -1,3 +1,4 @@
+
 # My Portfolio Project
 
 Welcome to my portfolio! This project showcases my work and skills in web development.
@@ -8,8 +9,11 @@ You can view the live demo of my portfolio at: [Click here for live preview](htt
 
 ## Tools Used
 
-- **<span style="color: #E44D26;">HTML</span>**: For structuring the content.
-- **<span style="color: #2965F1;">CSS</span>**: For styling the layout and design.
+- **HTML**: For structuring the content.
+- **CSS**: For styling the layout and design.
+- **Java Script**: For Functionality.
+- **AOS**: For animation on scrolling.
+
 
 ## Inspiration
 
@@ -22,4 +26,3 @@ This portfolio is inspired by the design and functionality of [Chetan Nada](http
 - Responsive design
 - Project showcases
 - Contact form
-
