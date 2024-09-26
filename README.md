@@ -8,8 +8,8 @@ You can view the live demo of my portfolio at: [Your Portfolio Live](https://che
 
 ## Tools Used
 
-- **HTML**: For structuring the content.
-- **CSS**: For styling the layout and design.
+- **<span style="color: #E44D26;">HTML</span>**: For structuring the content.
+- **<span style="color: #2965F1;">CSS</span>**: For styling the layout and design.
 
 ## Inspiration
 
@@ -22,3 +22,4 @@ This portfolio is inspired by the design and functionality of [Chetan Nada](http
 - Responsive design
 - Project showcases
 - Contact form
+
