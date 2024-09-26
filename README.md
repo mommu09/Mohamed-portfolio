@@ -4,7 +4,7 @@ Welcome to my portfolio! This project showcases my work and skills in web develo
 
 ## Demo
 
-You can view the live demo of my portfolio at: [Your Portfolio Live](https://chetannada.netlify.app/)
+You can view the live demo of my portfolio at: [Click here for live preview](https://mommu09.github.io/Mohamed-portfolio/)
 
 ## Tools Used
 
