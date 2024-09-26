@@ -17,14 +17,8 @@ This portfolio is inspired by the design and functionality of [Chetan Nada](http
 
 ## Features
 
+- About me
+- Skills
 - Responsive design
 - Project showcases
 - Contact form
-
-## Setup Instructions
-
-To view or edit this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
