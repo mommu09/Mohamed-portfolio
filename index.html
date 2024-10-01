@@ -87,7 +87,7 @@
                         </div>
                 </div>
                 <div class="para flex-item" data-aos="zoom-out-left">
-                    <h3>I'm a Mohamed and I'm a front-end Developer</h3>
+                    <h3>I'm a Mohamed and I'm a Front-end Developer</h3>
                     <p class="para-ex">I am a dedicated front-end developer currently enhancing my skills in HTML, CSS,
                         and JavaScript through the Freshworks Software Academy. I am passionate about translating design
                         concepts into interactive digital experiences and continuously improving my expertise to stay
@@ -228,19 +228,21 @@
                     </div>
                 </div>
                 <div class="form-div flex-item" data-aos="zoom-out-left">
-                    <form class="form" action="mailto:mohamedj0910@gmail.com" method="get" enctype="multipart/form-data">
+                    <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="redirect" value="">
                         <div class="form-label">
                             <p>Message me</p>
                         </div>
+                        <input type="hidden" name="access_key" value="14445eed-f364-4964-a98f-bcdbf7e3cb30">
                         <div class="name-email input-div">
-                            <input type="text" class="na-em" placeholder="Name" required>
-                            <input type="email" class="na-em" placeholder="Email" required>
+                            <input type="text" name="Name" class="na-em" placeholder="Name" required>
+                            <input type="email" name="Email" class="na-em" placeholder="Email" required>
                         </div>
                         <div class="subject input-div">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required name="subject">
                         </div>
                         <div class="description input-div">
-                            <textarea name="" id="" rows="5" cols="60" placeholder="Describe a project"></textarea>
+                            <textarea rows="5" cols="60" placeholder="Describe a project" name="Body"></textarea>
                         </div>
                         <div class="button input-div">
                             <button type="submit" class="snd-btn">Send Message <i

@@ -23,7 +23,7 @@ menu.addEventListener('click', () => {
 //   icon.style.color="white";
 // });
 
-links.forEach(link => {
+links.forEach(function(link) {
   link.addEventListener('click', () => {
     menuList.style.left = '-100dvw';
     icon.classList.add('fa-bars');
