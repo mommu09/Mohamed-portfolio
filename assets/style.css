@@ -93,7 +93,8 @@ nav ul {
     }
 }
 
-.nav-links::before {
+.nav-links::before ,
+.nav-active::before {
     content: "";
     width: 0;
     height: 3px;
@@ -105,7 +106,8 @@ nav ul {
     transition: all 0.5s;
 }
 
-.nav-links::after {
+.nav-links::after ,
+.nav-active::after {
     content: "";
     width: 0;
     height: 3px;
@@ -119,7 +121,11 @@ nav ul {
 
 .nav-links:hover::before,
 .nav-links:hover::after {
-    width: 50%;
+    width: 60%;
+}
+.nav-active::before,
+.nav-active::after {
+    width: 60%;
 }
 
 #home {
@@ -293,6 +299,9 @@ nav ul {
 
 .skills {
     color: white;
+}
+.skills .lifeskill-container{
+    margin-top: 100px;
 }
 
 .line {
@@ -503,6 +512,51 @@ nav ul {
     margin-top: 3px;
 }
 
+.my-learnings {
+    width: 100%;
+    padding: 5px;
+}
+
+.my-learnings > div{
+    margin: 20px auto;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #e0e0e0; /* Light gray background for progress bar */
+    margin-top: 5px;
+}
+
+.progress-level {
+    height: 100%;
+    border-radius: 20px;
+    background-color: crimson; 
+}
+
+.english-progress {
+    width: 65%; 
+}
+
+.life-skills-progress {
+    width: 40%;
+}
+
+.ps-progress{
+    width: 100%;
+}
+
+.skill-name{
+    display: flex;
+    justify-content: space-between;
+}
+
 .projects {
     height: fit-content;
 }
@@ -577,6 +631,19 @@ nav ul {
     border-radius: 10px;
 }
 
+.see-more-projects{
+    width: max-content;
+    margin: 50px auto;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.see-more{
+    text-align: center;
+    color: crimson;
+    font-size: large;
+    padding: 10px;
+    
+}
 .contact {
     background-color: #1b272a;
     color: white;
@@ -649,6 +716,7 @@ textarea {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     box-sizing: border-box;
+    resize: none;
 }
 
 .na-em {
@@ -804,7 +872,9 @@ textarea:focus {
     .my-name {
         font-size: 50px;
     }
-
+    .animated-text{
+        width: 19ch;
+    }
     #about,
     #skills,
     #projects,
@@ -877,7 +947,9 @@ textarea:focus {
             transform: translate(-1px, 1px);
         }
     }
-
+    .para-div{
+        gap: 50px;
+    }
     .menu-btn i {
         color: white;
     }
