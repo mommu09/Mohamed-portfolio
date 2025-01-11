@@ -391,7 +391,7 @@ nav ul {
 .logo-img:nth-child(1):hover::after {
     background-color: #e44d26;
     display: block;
-}
+}q1
 
 .logo-img:nth-child(1):hover::before {
     content: "HTML";
@@ -498,6 +498,28 @@ nav ul {
 
 .logo-img:nth-child(6):hover::after {
     background-color: #f34f29;
+    display: block;
+}
+.logo-img:nth-child(7):hover::before {
+    content: "My Sql";
+    background-color: #f8981d;
+    color: #1b272a;
+    display: block;
+}
+
+.logo-img:nth-child(7):hover::after {
+    background-color: #f34f29;
+    display: block;
+}
+.logo-img:nth-child(8):hover::before {
+    content: "Python";
+    background-color: #ffe569;
+    color: #326c9b;
+    display: block;
+}
+
+.logo-img:nth-child(8):hover::after {
+    background-color: #ffe569;
     display: block;
 }
 
