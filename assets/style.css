@@ -565,7 +565,12 @@ nav ul {
 .english-progress {
     width: 65%; 
 }
-
+.html-progress{
+    width: 50%;
+}
+.sql-progress{
+    width: 100%;
+}
 .life-skills-progress {
     width: 40%;
 }
