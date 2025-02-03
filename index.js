@@ -2,6 +2,7 @@ const menu = document.querySelector('.menu-btn');
 const menuList = document.querySelector('nav');
 const icon = document.querySelector('.icon');
 const links = document.querySelectorAll('nav ul li a');
+const projects = document.querySelectorAll('.project-div > div');
 menu.addEventListener('click', () => {
   if (menuList.style.left === '0px') {
     menuList.style.left = '-100dvw';
@@ -83,3 +84,10 @@ window.addEventListener('scroll', checkSectionInView);
 
 // Initialize by checking if any section is in view when the page loads
 document.addEventListener('DOMContentLoaded', checkSectionInView);
+
+projects.forEach((project) => {
+  project.addEventListener('click',()=>{
+    let link = project.querySelector('a');
+    window.open(link,'_blank')
+  })
+})

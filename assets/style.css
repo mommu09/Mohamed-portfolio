@@ -102,7 +102,7 @@ nav ul {
     position: absolute;
     left: 50%;
     border-radius: 0 2px 2px 0;
-    bottom: -5px;
+    bottom: -10px;
     transition: all 0.5s;
 }
 
@@ -115,7 +115,7 @@ nav ul {
     position: absolute;
     border-radius: 2px 0px 0px 2px;
     right: 50%;
-    bottom: -5px;
+    bottom: -10px;
     transition: all 0.5s;
 }
 
@@ -570,9 +570,18 @@ nav ul {
     width: 65%; 
 }
 .html-progress{
-    width: 50%;
+    width: 100%;
+}
+.css-progress{
+    width: 100%;
+}
+.js-progress{
+    width: 80%;
 }
 .sql-progress{
+    width: 100%;
+}
+.python-progress{
     width: 100%;
 }
 .life-skills-progress {
@@ -1033,21 +1042,27 @@ textarea:focus {
     font-size: 20px;
     font-family: monospace;
     font-weight: 800;
-    border: 2px solid crimson;
+    border: 1px solid crimson;
     justify-content: center;
     align-items: center;
     padding: 20px;
     border-radius: 10px;
     transition: 1s;
     cursor: pointer;
+    text-align: center;
 }
+.card-name i{
+    color: crimson;
+    font-size: 30px;
+    vertical-align: middle;
+} 
 .card-heading{
     text-align: center;
     font-family: sans-serif;
     margin: 20px auto;
 }
 .card:hover{
-    background-color: rgba(220, 20, 60, 0.379);
+    background-color: rgba(220, 20, 60, 0.1);
     transform: translateY(-5px);
     animation: floating1 1s ease-in-out infinite alternate;
 }
